@@ -1,0 +1,290 @@
+/* ====================
+   GLOBAL
+==================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background-color:#e6cdb5;
+    color:#333;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* ====================
+   NAVBAR
+==================== */
+
+.navbar{
+    background-color:#ffffff;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+    color:#6f4e37 !important;
+}
+
+.nav-link{
+    font-weight:500;
+    color:#333 !important;
+}
+
+.nav-link:hover{
+    color:#6f4e37 !important;
+}
+
+/* ====================
+   HERO SECTION
+==================== */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero h1{
+    color:#6f4e37;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:18px;
+    color:#555;
+}
+
+.hero img{
+    max-width:100%;
+}
+
+/* ====================
+   BUTTON
+==================== */
+
+.btn-dark{
+    background:#6f4e37;
+    border:none;
+}
+
+.btn-dark:hover{
+    background:#4e3524;
+}
+
+.btn-outline-dark:hover{
+    background:#6f4e37;
+    color:white;
+}
+
+/* ====================
+   CARD PRODUK
+==================== */
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card-img-top{
+    height:220px;
+    object-fit:cover;
+}
+
+.card-body h5{
+    color:#6f4e37;
+    font-weight:bold;
+}
+
+/* ====================
+   SPECIAL COFFEE
+==================== */
+
+section h2{
+    color:#6f4e37;
+    font-weight:bold;
+}
+
+/* ====================
+   TESTIMONIAL
+==================== */
+
+.testimonial-card{
+    border-radius:15px;
+}
+
+.bg-light{
+    background-color:#f3ece7 !important;
+}
+
+/* ====================
+   ABOUT PAGE
+==================== */
+
+.about-image{
+    border-radius:15px;
+}
+
+.about-text h2{
+    color:#6f4e37;
+}
+
+.about-text p{
+    line-height:1.8;
+}
+
+/* ====================
+   VISI MISI
+==================== */
+
+.card ul{
+    padding-left:20px;
+}
+
+.card ul li{
+    margin-bottom:10px;
+}
+
+/* ====================
+   CONTACT
+==================== */
+
+.bi{
+    color:#6f4e37;
+}
+
+.contact-box{
+    padding:20px;
+}
+
+/* ====================
+   SOCIAL MEDIA
+==================== */
+
+.social-media a{
+    transition:0.3s;
+}
+
+.social-media a:hover{
+    transform:scale(1.2);
+}
+
+/* ====================
+   SHOP SIDEBAR
+==================== */
+
+.list-group-item{
+    border:none;
+}
+
+.list-group-item:hover{
+    background:#6f4e37;
+    color:white;
+}
+
+/* ====================
+   PAGINATION
+==================== */
+
+.page-link{
+    color:#6f4e37;
+}
+
+.page-link:hover{
+    background:#6f4e37;
+    color:white;
+}
+
+.page-item.active .page-link{
+    background:#6f4e37;
+    border-color:#6f4e37;
+}
+
+/* ====================
+   FOOTER
+==================== */
+
+footer{
+    background:#2f1d12;
+}
+
+footer h5{
+    color:#ffffff;
+    margin-bottom:15px;
+}
+
+footer p{
+    color:#d9d9d9;
+}
+
+/* ====================
+   SUBSCRIBE
+==================== */
+
+input.form-control{
+    border-radius:10px 0 0 10px;
+}
+
+.input-group .btn{
+    border-radius:0 10px 10px 0;
+}
+
+/* ====================
+   RESPONSIVE
+==================== */
+
+@media(max-width:768px){
+
+.hero{
+    text-align:center;
+    min-height:auto;
+    padding:50px 0;
+}
+
+.hero h1{
+    font-size:30px;
+}
+
+.card-img-top{
+    height:180px;
+}
+
+}
+/* Menu aktif */
+
+.navbar .nav-link{
+    color:#000;
+    font-weight:500;
+    padding:8px 15px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.navbar .nav-link:hover{
+    background:#8B5E3C;
+    color:white !important;
+}
+
+.navbar .nav-link.active{
+    background:#8B5E3C;
+    color:white !important;
+}
+.hero img{
+    width:100%;
+    max-width:550px;
+    border-radius:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
